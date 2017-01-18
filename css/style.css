@@ -23,14 +23,15 @@ footer, header {
 }
 .sidebar {
 	background:blue;
-	flex:0 0 300px;
+	flex:0 1 320px;
+  min-width:320px;
 }
 svg {
   flex:1;
   min-width:24px;
 }
 a {
-    color: #ff6c00;
+  color: #ff6c00;
 }
 .logo {
   flex:28;
