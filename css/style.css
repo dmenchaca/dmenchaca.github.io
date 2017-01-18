@@ -71,19 +71,17 @@ a {
 }
 .content{
 	order:1;
-  margin-top:35px;
-
+  margin-top:72px;
 }
 .about{
 	flex:1;
-  margin-top: 40px;
   margin-left: 30px;
   margin-right: 10%;
 
 }
 .upcoming{
 	flex:1;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 30px;
   margin-right: 10%;
 }
