@@ -23,7 +23,6 @@ footer, header {
 }
 .sidebar {
 	background:blue;
-	flex:0 1 320px;
   min-width:320px;
 }
 svg {
