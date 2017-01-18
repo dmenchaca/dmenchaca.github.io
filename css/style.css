@@ -16,13 +16,13 @@ html, body {
 	display:flex;
 }
 footer, header {
-	background:white;
+	background:green;
   display: flex;
   padding:20px;
 
 }
 .sidebar {
-	background:white;
+	background:blue;
 	flex:0 0 300px;
 }
 svg {
@@ -69,7 +69,7 @@ a {
   margin-top: 10px;
 }
 .content{
-	background:white;
+	background:yellow;
 	flex:1;	
 }
 .about{
