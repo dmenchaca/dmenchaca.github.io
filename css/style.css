@@ -91,6 +91,6 @@ a {
   margin: 40px 10% 10% 20px;
 }
 @media screen and (max-width:680px){
-	.sidebar{flex: 0;order:0}
+	.sidebar{flex: 0;order:1}
 	.main {flex-direction:column;}
 }
