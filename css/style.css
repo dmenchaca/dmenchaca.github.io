@@ -3,6 +3,7 @@ html, body {
 	padding:0;
   font-family:"avenir next";
   border-top:solid 2px #ff6c00;
+  color: #4c4c4c;
 }
 .wrap {
 	display: flex;
@@ -16,26 +17,28 @@ html, body {
 	display:flex;
 }
 footer, header {
-	background:green;
   padding:10px;
   display: flex;
 }
 .sidebar {
-	background:blue;
 	flex:0 0 300px;
   padding:10px;
   order:0;
+  margin-top:30px;
 }
 svg {
   flex:1;
   min-width:24px;
   margin-left:18px;
+  margin-top:15px;
 }
 a {
   color: #ff6c00;
 }
 .logo {
   flex:28;
+  margin-top:15px;
+
 }
 .image2 {
     width: 60%;
@@ -67,11 +70,11 @@ a {
   margin-top: 10px;
 }
 .content{
-	background:yellow;
-	order:1;	
+	order:1;
+  margin-top:35px;
+
 }
 .about{
-	background:white;
 	flex:1;
   margin-top: 40px;
   margin-left: 30px;
@@ -79,14 +82,12 @@ a {
 
 }
 .upcoming{
-	background:white;
 	flex:1;
   margin-top: 40px;
   margin-left: 30px;
   margin-right: 10%;
 }
 .blog{
-	background:white;
 	flex:1;
   margin: 40px 10% 10% 30px;
 }
