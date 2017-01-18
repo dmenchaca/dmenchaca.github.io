@@ -1,0 +1,102 @@
+html, body {
+	margin:0;
+	padding:0;
+  font-family:"avenir next";
+  border-top:solid 2px #ff6c00;
+}
+.wrap {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	max-width:800px;
+  margin:auto;
+}
+.main {
+	flex: 1;
+	display:flex;
+}
+footer, header {
+	background:white;
+  display: flex;
+  padding:20px;
+
+}
+.sidebar {
+	background:white;
+	flex:0 0 300px;
+}
+svg {
+  flex:1;
+  min-width:24px;
+}
+a {
+    color: #ff6c00;
+}
+.logo {
+  flex:28;
+}
+.image2 {
+    width: 60%;
+    height: auto;
+    position: relative;
+    margin-left: 20px;
+    max-width: 160px;
+    margin-top: 40px;
+    border: #CDCECF .1px solid;
+    border-radius: 3px;
+}
+.shape2 {
+  height: 160px;
+  width: 160px;
+  background-color: #ffc914;
+  border-radius: 3px;
+  position: absolute;
+  margin-left: 27px;
+  margin-top: 47px;
+
+
+  
+}
+.social {
+    height: auto;
+    position: relative;
+    margin-left: 10%;
+    margin-left: 20px;
+
+}
+.copyright {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.content{
+	background:white;
+	flex:1;	
+}
+.about{
+	background:white;
+	flex:1;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 10%;
+
+}
+.upcoming{
+	background:white;
+	flex:1;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 10%;
+}
+.blog{
+	background:white;
+	flex:1;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 10%;
+  margin-bottom: 10%;
+
+}
+@media screen and (max-width:680px){
+	.sidebar{flex: 0;order:0}
+	.main {flex-direction:column;}
+}
