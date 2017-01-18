@@ -17,13 +17,13 @@ html, body {
 }
 footer, header {
 	background:green;
+  padding:10px;
   display: flex;
-  padding:20px;
-
 }
 .sidebar {
 	background:blue;
-  min-width:320px;
+	flex:0 0 300px;
+  padding:10px;
 }
 svg {
   flex:1;
@@ -38,7 +38,7 @@ a {
 .image2 {
     width: 60%;
     height: auto;
-    position: relative;
+    dispplay:flex;
     margin-left: 20px;
     max-width: 160px;
     margin-top: 40px;
@@ -52,10 +52,7 @@ a {
   border-radius: 3px;
   position: absolute;
   margin-left: 27px;
-  margin-top: 47px;
-
-
-  
+  margin-top: 47px;  
 }
 .social {
     height: auto;
